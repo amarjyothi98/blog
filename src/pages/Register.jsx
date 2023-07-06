@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function Login() {
+export default function Register() {
   return (
     <>
-    <form className='submit'>
-        <h1>Login</h1>
+    <form className='register'>
+        <h1>Register</h1>
         <input type="text" placeholder='username' />
         <input type="password" placeholder='password' />
-        <button className='logReg'>Login</button>
+        <button className='logReg'>Register</button>
     </form> 
     </>
   )
